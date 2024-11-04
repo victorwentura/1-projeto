@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner1{
+    background-image: url("https://blognroll.com.br/wp-content/uploads/2019/02/MCSID.jpg");
+    box-shadow: 3px 3px rgb(80, 79, 79), -1em 0 .4em rgb(4, 70, 133);
+}
+
+.banner2{
+    background-image: url("https://www.jornaldorap.com.br/wp-content/uploads/2021/09/mc-sid-cordas-musicais.jpeg");
+    box-shadow: 3px 3px rgb(80, 79, 79), -1em 0 .4em rgb(109, 5, 5);
+}
+
+.banner3{
+    background-image: url("https://www.canalraprj.com.br/wp-content/uploads/2018/05/mc-sidds.png");
+    box-shadow: 3px 3px rgb(80, 79, 79), -1em 0 .4em rgb(177, 160, 10);
+}
+
+.banner4{
+    background-image: url("https://fly.metroimg.com/upload/q_85,w_1200/https://uploads.metroimg.com/wp-content/uploads/2023/06/12151707/010623-BE-MC-Sid-entrevista-4.jpg");
+    box-shadow: 3px 3px rgb(80, 79, 79), -1em 0 .4em rgb(116, 10, 255);
+}
+
+.banner5{
+    background-image: url("https://akamai.sscdn.co/tb/palcomp3-fotos/c/c/b/7/mcsid-9c37d4d4aebf49ffac2874c4b5092320.jpg");
+    box-shadow: 3px 3px rgb(80, 79, 79), -1em 0 .4em rgb(112, 112, 112);
+}
+
+.banner6{
+    background-image: url("https://i.ytimg.com/vi/E38IUGOf-ZY/sddefault.jpg");
+    box-shadow: 3px 3px rgb(80, 79, 79), -1em 0 .4em rgb(37, 37, 37);
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-container { 
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer ul{
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;    
+}

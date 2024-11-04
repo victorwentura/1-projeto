@@ -1,0 +1,42 @@
+body{
+    background-color: #d3d3d3;
+}
+
+.img{
+    display: flex;
+}
+
+.texto{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.baixo{
+    padding-top: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer ul{
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;    
+}
